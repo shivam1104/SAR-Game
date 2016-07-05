@@ -1,0 +1,21 @@
+import->init
+
+gd=pygame.display.set_mode((800,600)) #Window display
+
+#Clock
+fps, Timer
+clock=pygame.time.Clock()
+
+carDamaged=False
+carDamagedPercent=0
+
+while not carDamaged:
+  
+
+pygame.event #- Handles  all the events happening on screen (Example mouse click key pressed etc)
+
+Update better than flip as update just updatesa part of the screen (if parameters are put)
+pygame.display.update()
+
+clock.tick(x fps)
+
